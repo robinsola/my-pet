@@ -1,0 +1,30 @@
+body {
+  background-color: #f0f0f5;
+}
+
+h1 {
+  color: #003399;
+  text-align: right;
+  letter-spacing: 10px;
+  font-family: sans-serif;
+  font-style: oblique;
+}
+
+h2 {
+  color: #802000;
+  font-family: fantasy;
+  text-align: center;
+}
+
+h3 {
+  color: #006600;
+  font-family: helvetica;
+}
+
+p {
+  font-family: georgia;
+}
+
+ul, ol {
+  line-height: 30px;
+}
