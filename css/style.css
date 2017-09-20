@@ -3,16 +3,18 @@ body {
 }
 
 img {
-  width: 1100px;
-  height: 400px;
-  object-fit: cover;
+  float: left;
+  width: 45%;
+  height: auto;
+  margin-right: 30px;
+  padding: 30px;
 }
 
 h1 {
-  color: #003399;
+  color: blue;
   text-align: right;
   letter-spacing: 10px;
-  font-family: sans-serif;
+  font-family: American Typewriter;
   font-style: oblique;
 }
 
@@ -23,7 +25,7 @@ h2 {
 }
 
 h3 {
-  color: #006600;
+  color: white;
   font-family: helvetica;
 }
 
@@ -31,13 +33,29 @@ p {
   font-family: georgia;
 }
 
-ul, ol {
+ol, ul {
   line-height: 30px;
 }
 
+.box {
+  margin: 12px;
+  border: 4px solid white;
+  padding: 4px;
+  background-color: gray;
+}
+
 .column {
-  width: 300px;
+  width: 350px;
   float: left;
+  margin: 12px;
+  border: 4px solid white;
+  background-color: blue;
+  padding: 12px;
+}
+
+.column p {
+  color: white;
+  font-family: Skia;
 }
 
 .gallery img {
