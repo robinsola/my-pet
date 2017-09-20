@@ -2,6 +2,12 @@ body {
   background-color: #f0f0f5;
 }
 
+img {
+  width: 1100px;
+  height: 400px;
+  object-fit: cover;
+}
+
 h1 {
   color: #003399;
   text-align: right;
@@ -27,4 +33,15 @@ p {
 
 ul, ol {
   line-height: 30px;
+}
+
+.column {
+  width: 300px;
+  float: left;
+}
+
+.gallery img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
